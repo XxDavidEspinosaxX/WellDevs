@@ -17,9 +17,11 @@ import java.io.Reader;
 public class WellDevs {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         
-        while (true) {
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        int numero = 10;
+        
+        while (numero >= 0) {
             System.out.println("Opciones menu: ");
             System.out.println("1. Añadir cliente");
             System.out.println("2. Eliminar cliente ");

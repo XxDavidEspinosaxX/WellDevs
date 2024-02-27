@@ -65,22 +65,16 @@ public class WellDevs {
                     break;
                 case 10:
                     System.out.println("Saliendo...");
-                    return; // Sale del método main, terminando el programa.
-                default:
-                    System.out.println("Opción inválida");
-                    break;
+                    return;
                 
                      
             }
         }
 
-    private static Reader InputStreamReader(InputStream in) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+     }
                 
     }
 
-    private static Reader InputStreamReader(InputStream in) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
+   
 

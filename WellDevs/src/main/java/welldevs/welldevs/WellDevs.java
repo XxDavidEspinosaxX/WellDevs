@@ -82,14 +82,47 @@ public class WellDevs {
     
     //Funcion de añadir producto:
     
-       public static void AñadirProducto(String[] args) throws IOException{
-           
+    public static boolean onlyAlphabets(
+      String str, int n)
+    {
+ 
+        // Return false if the string
+        // has empty or null
+        if (str == null || str == "") {
+            return false;
+        }
+ 
+        // Traverse the string from
+        // start to end
+        for (int i = 0; i < n; i++) {
+            // Check if the specified
+            // character is not a letter then
+            // return false,
+            // else return true
+            if (!Character
+                .isLetter(str.charAt(i))) {
+                return false;
+            }
+        }
+        return true;
+    }
+        
+        
+ 
+       public static void añadirProducto(String[] args) throws IOException{
+         
+        String abc = "QqWwEeRrTtYyUuIiOoPpAaSsDdFfGgHhJjKkLlÑñZzXxCcVvBbNnMm";
         ArrayList<String> pedidos = new ArrayList<>();
         BufferedReader nombrepedido = new BufferedReader(new InputStreamReader(System.in));
         String pedido = nombrepedido.readLine();
         System.out.println("Nombre de pedido: ");
-       // if nombrepedido
+        if (pedido in abc) {
+           System.out.println("Nombre de pedido aceptado.");
+           BufferedReader idped = new BufferedReader(new InputStreamReader(System.in));
+       
+       }
                 
+    }
     }
     
     //Funcion de eliminar producto:

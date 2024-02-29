@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.util.ArrayList;
 
 /**
  *
@@ -74,6 +75,35 @@ public class WellDevs {
         }
 
      }
+    
+    //Funcion de añadir cliente:
+    
+    //Funcion de eliminar cliente:
+    
+    //Funcion de añadir producto:
+    
+       public static void AñadirProducto(String[] args) throws IOException{
+           
+        ArrayList<String> pedidos = new ArrayList<>();
+        BufferedReader nombrepedido = new BufferedReader(new InputStreamReader(System.in));
+        String pedido = nombrepedido.readLine();
+        System.out.println("Nombre de pedido: ");
+       // if nombrepedido
+                
+    }
+    
+    //Funcion de eliminar producto:
+    
+    //Funcion de añadir pedido:
+    
+    //Funcion de eliminar pedido:
+    
+    //Funcion de listar clientes:
+    
+    //Funcion de listar productos:
+    
+    //Funcion de historial de pedidos
+ 
                 
     }
 
